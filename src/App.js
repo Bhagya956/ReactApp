@@ -4,6 +4,7 @@ import Button from './functional-components/button';
 import TableComponent from './class-components/table';
 import ListComponent from './props/list';
 import ImageComponent from './image-components/images';
+import ImageComponents from './image-props-practise/ImageComponent';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <Button/> */}
       {/* <TableComponent/>
       <ListComponent/> */}
-      <ImageComponent/> 
+      {/* <ImageComponent/>  */}
+      <ImageComponents/>
     </div>
   );
 }
