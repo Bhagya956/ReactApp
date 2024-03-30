@@ -7,22 +7,36 @@ import ImageComponent from './image-components/images';
 import ImageComponents from './image-props-practise/ImageComponent';
 import Krushika from './30-3Saturday/riv';
 import CustomButton from './Day4-childrenprops/CustomButton';
+import Greeting from './Day4-childrenprops/greeting';
+import ListShow from './Day4-childrenprops/task1';
 
 
 function App() {
   return (
-    <div >
+    <>
       {/* <Button/> */}
       {/* <TableComponent/>
       <ListComponent/> */}
       {/* <ImageComponent/>  */}
       {/* <ImageComponents/>
       <Krushika/> */}
-      <CustomButton text={"login"}/>
+      {/* <CustomButton text={"login"}/> */}
   
      
-      <CustomButton text={"signup"}/>
-    </div>
+      {/* <CustomButton>
+        SignUp
+        
+      </CustomButton> */}
+      {/* <Greeting>
+       <h1> good morning</h1>
+      </Greeting>
+      <Greeting>
+        good evening
+      </Greeting> */}
+
+      <ListShow/>
+      
+    </>
   );
 }
 

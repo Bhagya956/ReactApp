@@ -3,10 +3,10 @@
 
 function CustomButton(props){
     // const buttonText="Login"
-    const{text}=props
+    const{children}=props
     return(
         <div>
-            <button onClick={()=>{}} className="button">{text}</button>
+            <button onClick={()=>{}} className="button">{children}</button>
         </div>
     )
 
