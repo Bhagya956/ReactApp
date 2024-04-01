@@ -9,6 +9,9 @@ import Krushika from './30-3Saturday/riv';
 import CustomButton from './Day4-childrenprops/CustomButton';
 import Greeting from './Day4-childrenprops/greeting';
 import ListShow from './Day4-childrenprops/task1';
+import CustomText from './1-4/inline';
+import External from './1-4/externalindex';
+import Module from './1-4/moduleindex';
 
 
 function App() {
@@ -27,14 +30,21 @@ function App() {
         SignUp
         
       </CustomButton> */}
-      {/* <Greeting>
+
+      
+    {/* <Greeting>
        <h1> good morning</h1>
       </Greeting>
       <Greeting>
         good evening
-      </Greeting> */}
+      </Greeting> 
 
-      <ListShow/>
+      <ListShow/> */}
+
+      <CustomText/>
+      <External/>
+      <Module/>
+      <Card/>
       
     </>
   );
