@@ -12,6 +12,8 @@ import ListShow from './Day4-childrenprops/task1';
 import CustomText from './1-4/inline';
 import External from './1-4/externalindex';
 import Module from './1-4/moduleindex';
+import ButtonComponent from './class-components/button';
+import Fruit from './class-components/2-4-task';
 
 
 function App() {
@@ -41,10 +43,13 @@ function App() {
 
       <ListShow/> */}
 
-      <CustomText/>
+      {/* <CustomText/>
       <External/>
-      <Module/>
-      <Card/>
+      <Module/> */}
+
+      <ButtonComponent/>
+      <Fruit/>
+      
       
     </>
   );
