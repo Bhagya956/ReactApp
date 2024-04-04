@@ -13,7 +13,9 @@ import CustomText from './1-4/inline';
 import External from './1-4/externalindex';
 import Module from './1-4/moduleindex';
 import ButtonComponent from './class-components/button';
-import Fruit from './class-components/2-4-task';
+// import Fruit from './class-components/2-4-task';
+import Products from './class-components/3-4-task';
+
 
 
 
@@ -50,7 +52,10 @@ function App() {
 
       {/* <ButtonComponent/> */}
 
-      <Fruit/>
+      {/* <Fruit/> */}
+
+
+      <Products/>
 
       
 
