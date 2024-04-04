@@ -16,6 +16,7 @@ import ButtonComponent from './class-components/button';
 import Fruit from './class-components/2-4-task';
 
 
+
 function App() {
   return (
     <>
@@ -47,8 +48,14 @@ function App() {
       <External/>
       <Module/> */}
 
-      <ButtonComponent/>
+      {/* <ButtonComponent/> */}
+
       <Fruit/>
+
+      
+
+
+      
       
       
     </>
