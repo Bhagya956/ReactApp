@@ -15,7 +15,10 @@ import Module from './1-4/moduleindex';
 import ButtonComponent from './class-components/button';
 // import Fruit from './class-components/2-4-task';
 import Products from './class-components/3-4-task';
-
+import ProductListing from './class-components/4-4-class-mounting';
+import FridayTask from './class-components/5-4-task';
+import UseStateEx2 from './functional-components/Hooks/useStateEx2';
+import UseStateEx3 from './functional-components/Hooks/useStateEx3';
 
 
 
@@ -55,7 +58,20 @@ function App() {
       {/* <Fruit/> */}
 
 
-      <Products/>
+      {/* <Products/> */}
+
+      {/* <ProductListing/> */}
+
+      {/* <FridayTask/> */}
+
+      {/* <UseStateExample1/> */}
+
+      {/* <UseStateEx2/> */}
+
+      <UseStateEx3/>
+
+     
+
 
       
 

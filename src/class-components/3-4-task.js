@@ -50,7 +50,7 @@ class Products extends Component{
 
     updateProduct=(index)=>{
         const newProduct=this.state.product.map((eachproduct,i)=>{
-            if(i==index){
+            if(i.id==index){
                 return "newproduct"
             }
             else{
@@ -71,16 +71,21 @@ class Products extends Component{
 
     render(){
         return(
+            
             <>
+        
             <button onClick={this.addProduct}>Add</button>
+            <ol>
         
         
             { 
             this.state.product.map((val,index)=>{
                 return(
                     <>
+                    <li>
                     
                     <h1>{val.id}</h1>
+                    </li>
                     <button onClick={()=>this.deleteProduct(index)}>Delete</button>
                     <button onClick={()=>this.updateProduct(index)}>update</button> 
                     </>
@@ -90,10 +95,12 @@ class Products extends Component{
             
             
             }
+            </ol>
 
              
              
         </>
+    
         
         )
     }
