@@ -19,6 +19,7 @@ import ProductListing from './class-components/4-4-class-mounting';
 import FridayTask from './class-components/5-4-task';
 import UseStateEx2 from './functional-components/Hooks/useStateEx2';
 import UseStateEx3 from './functional-components/Hooks/useStateEx3';
+import UncontrolledInput from './functional-components/forms/uncontrolled';
 
 
 
@@ -68,7 +69,9 @@ function App() {
 
       {/* <UseStateEx2/> */}
 
-      <UseStateEx3/>
+      {/* <UseStateEx3/> */}
+
+      <UncontrolledInput/>
 
      
 
