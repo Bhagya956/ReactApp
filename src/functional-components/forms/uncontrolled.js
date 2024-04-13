@@ -8,7 +8,7 @@ const UncontrolledInput=()=>{
   const passwordRef =useRef("")
   const [errorVisible,setErrorVisible]=useState(false )
 
-  const handleSubmit=(event)=>{
+  const handleSubmit=(event)=>{ 
     event.preventDefault()
     console.log("user submitted")
 
@@ -20,7 +20,7 @@ const UncontrolledInput=()=>{
     
     if(userInput.length<5 && userPassword.length<5){
       setErrorVisible(true)
-      alert("username and password must be more than 5 characters")
+      // alert("username and password must be more than 5 characters")
     }
     else{
       setErrorVisible(false)
@@ -65,7 +65,9 @@ const UncontrolledInput=()=>{
 
     />
   </div>
-  <span>username and password must be more than 5 characters</span>
+{
+  errorVisible  &&   <span>username and password must be more than 5 characters</span>
+}
   {/* <div className="form-check mb-3">
     <label className="form-check-label">
       <input className="form-check-input" type="checkbox" name="remember" />{" "}

@@ -20,6 +20,8 @@ import FridayTask from './class-components/5-4-task';
 import UseStateEx2 from './functional-components/Hooks/useStateEx2';
 import UseStateEx3 from './functional-components/Hooks/useStateEx3';
 import UncontrolledInput from './functional-components/forms/uncontrolled';
+import ControlledComponent from './functional-components/forms/controlled';
+import ControlledComponent2 from './functional-components/forms/controlled2';
 
 
 
@@ -71,7 +73,10 @@ function App() {
 
       {/* <UseStateEx3/> */}
 
-      <UncontrolledInput/>
+      {/* <UncontrolledInput/> */}
+
+      {/* <ControlledComponent/> */}
+      <ControlledComponent2/>
 
      
 
