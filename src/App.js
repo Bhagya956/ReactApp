@@ -22,6 +22,8 @@ import UseStateEx3 from './functional-components/Hooks/useStateEx3';
 import UncontrolledInput from './functional-components/forms/uncontrolled';
 import ControlledComponent from './functional-components/forms/controlled';
 import ControlledComponent2 from './functional-components/forms/controlled2';
+import UseEffectEx1 from './functional-components/Hooks/useEffectEx1';
+import UseEffectDom from './functional-components/Hooks/useEffectDomEx2';
 
 
 
@@ -76,7 +78,14 @@ function App() {
       {/* <UncontrolledInput/> */}
 
       {/* <ControlledComponent/> */}
-      <ControlledComponent2/>
+     {/* <ControlledComponent2/> */}
+
+     
+     {/* <UseEffectEx1/> */}
+
+     <UseEffectDom/>
+
+
 
      
 

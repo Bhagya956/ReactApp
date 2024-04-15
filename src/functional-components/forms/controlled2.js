@@ -62,6 +62,8 @@ const ControlledComponent2=()=>{
         }
     }
 
+
+
     
 
 
@@ -79,6 +81,23 @@ const ControlledComponent2=()=>{
         event.preventDefault()
        
     }
+
+    //----// fetching data -13-4-24(not understood code)
+
+//     const loginHitApi=async()=>{
+//        const result =await fetch('https://dummyjson.com/auth/login', {
+//   method: 'POST',
+//   headers: { 'Content-Type': 'application/json' },
+//   body: JSON.stringify({
+    
+//     username: 'kminchelle',
+//     password: '0lelplR',
+//     expiresInMins: 30, // optional, defaults to 60
+//   })
+// })
+// const result1=await result.toJson()
+// console.log(result)
+//     }
 
 
     return(
