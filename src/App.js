@@ -24,6 +24,8 @@ import ControlledComponent from './functional-components/forms/controlled';
 import ControlledComponent2 from './functional-components/forms/controlled2';
 import UseEffectEx1 from './functional-components/Hooks/useEffectEx1';
 import UseEffectDom from './functional-components/Hooks/useEffectDomEx2';
+import UseEffectTask from './functional-components/Hooks/15-4useEffecttask';
+import UseEffectButtonTask from './functional-components/Hooks/UseEffect15-4task';
 
 
 
@@ -83,7 +85,11 @@ function App() {
      
      {/* <UseEffectEx1/> */}
 
-     <UseEffectDom/>
+     {/* <UseEffectDom/> */}
+
+     {/* <UseEffectTask/> */}
+
+     <UseEffectButtonTask/>
 
 
 
